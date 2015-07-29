@@ -67,12 +67,12 @@ export class RouteConfig {
 			controller: 'VolumeDetailController',
 			controllerAs: 'volumedetail'
 		}).when('/pools', {
-			templateUrl: 'views/pools.html',
+			templateUrl: 'views/pools/pools.html',
 			menuId: 'storage',
 			controller: 'PoolController',
 			controllerAs: 'pools'
 		}).when('/pools/new', {
-			templateUrl: 'views/pools-new.html',
+			templateUrl: 'views/pools/pools-new.html',
 			menuId: 'storage',
 			controller: 'PoolNewController',
 			controllerAs: 'pool'
